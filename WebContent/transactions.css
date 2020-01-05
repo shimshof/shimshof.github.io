@@ -1,0 +1,390 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.logo {
+  margin-bottom: 0px;
+  margin-left: -32%;
+}
+
+.signout-button {
+  background: #759EAF;
+  padding: 15px 5px 15px 5px;
+  font-size: 16px;
+  display: block;
+  width: 100px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.signout-button:disabled {
+    background: #dddddd;
+}
+
+.signout-button:hover {
+  background: #1bc6a4;
+}
+
+.top-menu-items {
+	width: 100px;
+	text-decoration: none;
+	display: inline-table;
+	padding: 0px 10px 5px 10px;
+	font-size: 24px;
+	color: #7CA4B4;
+}
+
+.top-menu-items-selected {
+	content: "";
+	border-bottom: 0.2em solid #00DA6F;
+	display: inline-table;
+	caption-side: bottom;
+	position: relative;
+	margin-top:0.1em;
+	color: black;
+}
+
+.top-menu-items-not-active {
+   pointer-events: none;
+   cursor: default;
+}
+
+.title-border {
+	width: 100%;
+	height:2px;
+	background-color: RGBA(221, 221, 221, 1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+.container {
+  background: linear-gradient(#FCFDFD, #EAF2F4);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.invalidInput{
+	margin-bottom:15px;
+	padding-top:4px;
+	Background-color: rgba(237,58,3,1.0);
+	font-weight:lighter;
+	font-family:"helvetica";
+	Width: 100%;
+	Height: 25px;
+	border-radius: 5px;
+	color: rgba(256,256,256,1.0);
+	font-size: 14px;
+	text-align: center;	
+}
+
+.main-body {
+  flex: 1 1 auto;  
+}
+
+.footer {
+	flex: 0 0 40px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-family: "Helvetica Neue";
+    font-size:12px;
+    color: #3f5962;
+    margin-bottom: 20px;
+}
+
+.header {
+	width: 100%;
+	display: table;
+	background-color: #FDFEFE;
+}
+
+.header-row {
+	display: table-row;
+}
+
+.header-cell-left {
+	padding: 10px 0 10px 15px;
+	width: 200px;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.header-cell-center {
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.header-cell-right {
+	width: 120px;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.body-section {
+	margin-top: 70px;
+	margin-left: 70px;
+	display: none;
+}
+
+.body-section-title {
+	margin-top: 60px;
+	font-size: 36px;
+}
+
+.account-balance {
+	margin-top: 10px;
+	font-size: 56px;
+	font-weight: bold;
+}
+
+.show-section {
+	display: block;
+}
+
+.sub-account {
+	font-size: 27px;
+	display: inline;
+}
+
+.transfer-title {
+	margin-top: 100px;
+	font-size: 36px;
+}
+
+.transfer-sum {
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.amount-container{
+	width: 300px;
+}
+
+.transfer-button {
+	margin-top: 15px;
+	width: 370px;
+	margin-right:0;
+}
+
+.section-row {
+	margin-top: 30px;
+}
+
+.editBox {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  text-align: left;
+  color: #999999;
+  padding: 7px 0px;
+  padding-left: 7px;
+  margin: 10px 0;
+  display: block;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: white;
+  border: none;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+  box-shadow: 0 0 1px 1px #c5c7bc;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;    
+  box-sizing: border-box; 
+}
+
+.editBox:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px #1abc9c;
+}
+
+.green-button {
+  background: #67E396;
+  padding: 10px 10px 10px 10px;
+  font-size: 13px;
+  display: block;
+  width: 100%;;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.blue-button {
+  background: #477d94;
+  padding: 10px 10px 10px 10px;
+  font-size: 13px;
+  display: block;
+  width: 100%;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.green-button:disabled {
+    background: #B4E0C3;
+}
+
+.green-button:hover {
+  background: #1bc6a4;
+}
+
+.green-button:hover:disabled {
+    background: #B4E0C3;
+}
+
+.sign-on-button {
+	margin-top: 10px;
+	width: 100%;
+	margin-right:0;
+}
+
+.editBox:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px #1abc9c;
+}
+
+.body-section-text{
+  	font-size:13px;
+  	font-weight:lighter;
+    color: #999999;
+	text-align:justify;
+	font-family:"helvetica";
+	float: left;
+	padding-bottom: 15px;
+}
+
+::placeholder {
+    color:  #cccccc;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:  #cccccc;
+}
+
+.overlay {
+	background-color: rgba(255,255,255,0.7);
+	position: absolute;
+	width: 100%;
+	z-index: 400;
+	height: 100%;
+	top: 0px;
+	vertical-align: middle;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.show-overlay {
+	display:block;
+}
+
+.hide-overlay {
+	display:none;
+}
+
+.status-container-mock {
+	width: 220px;
+ 	height: 220px;
+  	border: none;
+}
+
+.status-authenticating-mock {
+  background-image: url('assets/images/authenticating-spinner.gif');
+  background-size: 100% 100%;
+}
+
+.status-authenticated-mock {
+  background-image: url('assets/images/authenticated-transferred.png');
+  background-size: 100% 100%;
+}
+
+.status-denied-mock {
+  background-image: url('assets/images/authenticating-denied.png');
+  background-size: 100% 100%;
+}
+
+.status-blocked-mock {
+  background-image: url('assets/images/authenticating-blocked.png');
+  background-size: 100% 100%;
+}
+
+.status-timedout-mock {
+  background-image: url('assets/images/authenticating-timedout.png');
+  background-size: 100% 100%;
+}
+
+.status-error-mock {
+  background-image: url('assets/images/authenticating-error.png');
+  background-size: 100% 100%;
+}
+
+.status-container {
+  padding: 15px 10px 15px 10px;
+  width: 260px;
+  height: 260px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+.otp-container{
+	padding: 10px;
+	background: linear-gradient(rgba(255,255,255,0.7), rgba(223, 233, 240, 0.7));
+	width: 270px;
+	height: 180px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#otpHeader{
+	font-size:18px;
+}
+
+.status-authenticating {
+  background: #999999;
+  
+}
+
+.status-authenticated {
+  background: #56E088;
+}
+
+.status-denied {
+  background: red;
+}
+
+.status-error {
+  background: red;
+}
+
+.device-icon {
+	position: relative;
+	top: -5%;
+	left: -10%;
+}
+
+.status-authenticating .spinner {
+	position: relative;
+	top: -37%;
+	left: -1%;
+	z-index: 2;
+	width: 50px;
+	height: 50px;
+}
